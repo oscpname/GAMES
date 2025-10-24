@@ -22,4 +22,16 @@ GAMES
 ---------------------------
 |#| GAME| Notes| TODO|
 |---| --------------------------- | -------------------------- |-------------------|
-|1| NTLM LPE| not working| to repeat with bettercap?|
+|1| NTLM_LPE_CVE-2025-33073| not working| to repeat with bettercap? new printerbug?|
+|2| LNK_CVE-2025-50154| not working| repeat with smbserver with user\password?|
+|3| DLL loading with poewrchell| SUPER| hide console, make upload command|
+|4| ICMP_SHELL| SUPER| binary is suspicios, improve OPSEC|
+|5| EDRfreeze| ??| -|
+|6| IPv6 sniff| ??| -|
+|7| NTLM_leakage_mslib| ??| -|
+|8| Asmloader| ??| -|
+|9| Asm loader + polymorph + KrbrelayUp| ? will it trigger binary?| -|
+
+
+
+
