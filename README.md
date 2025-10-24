@@ -32,6 +32,15 @@ GAMES
 |8| Asmloader| ??| -|
 |9| Asm loader + polymorph + KrbrelayUp| ? will it trigger binary?| -|
 
+Obfuscation flow
+---------------------------
+* compile exe
+* SuperNova?
+* cut bin with Infaltive Loader
+* compile final exe with Polaris-Obfuscator?
+* Polymorh in asm
+* asmloader to run final shellcode
+
 
 
 
