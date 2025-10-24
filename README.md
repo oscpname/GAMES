@@ -22,4 +22,4 @@ GAMES
 ---------------------------
 |#| GAME| Notes| TODO|
 |---| --------------------------- | -------------------------- |-------------------|
-|1| PROCESS| NtOpenProcess|-|
+|1| NTLM LPE| not working| to repeat with bettercap?|
