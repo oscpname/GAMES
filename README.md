@@ -34,8 +34,12 @@ GAMES
 
 Obfuscation flow
 ---------------------------
-manual: https://g3tsyst3m.com/shellcode/pic/Let's-Create-Some-Polymorphic-PIC-Shellcode!/
-tools: SuperNova, Polaris-Obfuscator
+manual: https://g3tsyst3m.com/shellcode/pic/Let's-Create-Some-Polymorphic-PIC-Shellcode!/ 
+
+tools: 
+SuperNova [git](https://github.com/nickvourd/Supernova)
+Polaris-Obfuscator [git](https://github.com/za233/Polaris-Obfuscator)
+Inflative loading [git](https://github.com/senzee1984/InflativeLoading)
 
 manual steps (creating polimorph + asm + random)
 * compile exe
