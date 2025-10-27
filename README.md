@@ -34,12 +34,23 @@ GAMES
 
 Obfuscation flow
 ---------------------------
+manual: https://g3tsyst3m.com/shellcode/pic/Let's-Create-Some-Polymorphic-PIC-Shellcode!/
+tools: SuperNova, Polaris-Obfuscator
+
+manual steps (creating polimorph + asm + random)
 * compile exe
-* SuperNova?
 * cut bin with Infaltive Loader
-* compile final exe with Polaris-Obfuscator?
-* Polymorh in asm
-* asmloader to run final shellcode
+* place shellcode into asm loader\runner
+* The Assembly Code Scrambler - Polymorphic prep part 1 - asmobfuscator.py: python asm_obfuscator.py input.asm
+* compile this using nasm to get our .obj file: nasm -fwin64 locate_kernel32_mod.asm
+* extract the shellcode from the compiled assembly .obj file using python helper
+* encode it to add more layers of polymorphism to our code - Bitwise NOT (python) key will be in the encoded shellcode itself! - We need to note positions so to use on the next phase in the decoder
+* place into asm x64 decoder: Just pick one of the index locations the script discovered as your decoding key and apply it to our .asm file below
+* Part III - Adding in the Alphanumeric / mix Component to our Shellcode. go ahead and copy and paste that shellcode somewhere
+* Place into C runner or whatever place
+* test on ANYRUN
+
+
 
 
 
